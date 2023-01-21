@@ -1,2 +1,3 @@
-# the-audio-dsp-workshop
-The Audio DSP Workshop
+# chaotic-signal-processing
+
+knowledge database for a digital audio signal processing (DASP) workshop.
