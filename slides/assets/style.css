@@ -1,0 +1,146 @@
+/* @theme marpit-theme */
+
+@import 'gaia';
+
+@font-face {
+    font-family: 'Replica Mono Std';
+    src: url('./assets/ReplicaMonoStd.woff2') format('woff2'),
+        url('./assets/ReplicaMonoStd.woff') format('woff'),
+        url('./assets/ReplicaMonoStd.svg#ReplicaMonoStd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    line-height: 1.0em;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+}
+
+section, h1, h2, h3, h4, h5, h6, ul, ol, li, em, p, strong, a, strong, code, pre, svg {
+	font-family: 'Replica Mono Std'; 
+	font-weight: normal; 
+	font-style: normal;    
+    
+    font-size: 36px;
+    font-style: normal; font-variant: normal; font-weight: 400;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 1.0em;
+    text-align: left;
+    background: none;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+
+    text-transform: uppercase;
+}
+
+section {
+    padding: 1em;
+    background: #000;
+}
+
+li, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0.0em;
+}
+
+li:not(:last-child) {
+    margin-bottom: 0.0em;
+/*     margin-bottom: -0.25em; */
+}
+
+
+li:first-child {
+    padding: 1.0em 0 0 0;
+}
+
+li:last-child {
+    padding: 0 0 1.0em 0;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 1.0em;
+    text-indent: -1.9em;
+}
+
+li li:first-child {
+    margin-top: -1em;
+}
+
+li li:last-child {
+    margin-bottom: -1em;
+}
+
+li:before {
+  content: '-';
+  padding-right: 0.3em;
+}
+
+ul>li {
+	margin: 0 0 0; 
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+/*     padding: 0 0 1em 0; */
+}
+
+p {
+/*     padding: 1.0em 0 1.0em 0; */
+}
+
+a {
+    color: #000;
+    background-color: #FFF;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 0.1em 0 0.1em 0;
+}
+
+pre, code, svg {
+    color: #000;
+/*     font-family: 'Roboto Mono', monospace; */
+    text-indent: 0.0em;
+    background: #FFF;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    letter-spacing: 0;
+    line-height: 1.1em;
+    font-size: 0.9em;
+}
+
+svg {
+    background: #FFF;
+}
+
+section pre code {
+    background: #FFF;
+/* 
+    padding: 1.5em;
+    padding-top: 2em;
+ */
+    padding: 0;
+	margin: 1em;
+    font-size: 1.0em;
+}
