@@ -146,6 +146,7 @@ Digital to Analog Converter (DAC)
 ## node categories
 
 - oscillator
+- wavetable
 - noise
 - filters
 - effects ( e.g distortion )
@@ -227,10 +228,10 @@ sonification ( data + parameters + interactions )
 
 ## ask ChatGPT some questions:
 
-- can you explain additive, subtractive and other forms of audio synthesis?
-    - what makes a square wave a "complex" waveform?
 - can you list digital audio effects?
 - can you list digital audio filters?
+- can you explain additive, subtractive and other forms of audio synthesis?
+- what makes a square wave a "complex" waveform?
 - can you show some distortion algorithms?
 - can you write an algorithm in c++ that performs an Overdrive distortion?
 - can you write c++ code that emulates an analog speaker distortion?
